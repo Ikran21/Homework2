@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 8px;
+    font-family: Verdana,Tahoma, sans-serif;
+    background-image: url(background.png);
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.banner {
+    background-image: url(bannerbackground.png);
+    height: 50px;
+}
+
+
+.film-reviews-container {
+    width: 800px;
+    border: 4px solid grey;
+    margin: auto; 
+    position: relative;
+    overflow: hidden;
+    
+}
+.review-columns {
+    display: flex; 
+    width: 550px;
+    
+    
+}
+.review-content {
+    background-image: url(rottenbackground.png);
+    color: red;
+    font-weight: bold;
+    font-size: 48px;
+    margin-right: 10px;
+    height:83px;
+    
+}
+
+.rotten-icon {
+    margin-right: 10px;
+}
+
+
+.review {
+    color: white;
+    font-size: 8pt;
+    align-self: flex-end;
+    
+}
+
+.review-column {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.review-box {
+    font-weight: bold;
+    border: solid 2px grey;
+    margin: 5px;
+    background-color: #E1D697;
+    padding: 5px;
+}
+
+.review-icon {
+    margin-left: 5px;
+    float: left;
+}
+
+.reviewer-info {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.reviewer-icon {
+    float: left;
+}
+
+
+.general-overview {
+   width: 250px;
+   background-color: #A2B964 ;
+   float: right;
+}
+.general-overview dl {
+    padding-left: 10px; 
+}
+.general-overview dd {
+    font-family: sans-serif;
+    padding-bottom: 10px; 
+    font-size: 8px;
+}
+.footer{
+    background-color: #A2B964 ;
+    position: absolute;
+    bottom: -8px;
+    width:550px;
+    text-align: center;
+    padding: 5px;
+}
+#validator-htmlcss{
+    position: fixed;
+    right:0;
+    bottom:0;
+}
+
+.validator img
+{ 
+	padding-right: 5px;
+	float: left;
+	height: 50px;
+}
